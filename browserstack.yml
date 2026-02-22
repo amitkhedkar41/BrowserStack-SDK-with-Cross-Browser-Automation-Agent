@@ -1,0 +1,15 @@
+userName: amitkhedkar
+accessKey: GPvw34Bdjh
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+    playwrightConfigOptions:
+      name: windows
+  - os: OS X
+    osVersion: Ventura
+    browserName: playwright-webkit
+    browserVersion: latest
+    playwrightConfigOptions:
+      name: osX
